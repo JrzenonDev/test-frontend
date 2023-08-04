@@ -1,4 +1,23 @@
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
 # Teste Dinheirow
+
 Olá Dev! Tudo bem?
 
 Nós estamos sempre em busca de profissionais interessantes e interessados, com boa capacidade de aprendizado, adaptação e principalmente bom senso! Este teste tem como objetivo avaliar e desafiar você. Não é obrigatório realizá-lo completamente, queremos apenas reconhecer seu esforço e potencial para aprender, se adaptar e tomar decisões.
@@ -6,6 +25,7 @@ Nós estamos sempre em busca de profissionais interessantes e interessados, com 
 Vamos ao teste!
 
 ## Desafio Marvel
+
 Crie um aplicativo front-end conectado ao back-end Marvel desenvolvido usando dados e rotas obtidos pela API oficial da Marvel Comics.
 
 API DOCS: https://developer.marvel.com/docs
@@ -17,37 +37,43 @@ API DOCS: https://developer.marvel.com/docs
 - Na página do personagem deverá conter um botão que volta para página inicial de listagem dos personangens
 - Ao voltar para a página da listagem dos personagens o filtro que busca o nome dos dados e a página da listagem deverão ser o mesmo que estavam antes do usuário entrar na página de detalhes do personagem.
 - caso o personagem não tenha foto deverá ser colocada uma foto do lotipo da Marvel.
-(atenção: não será permitido colocar essa validação nos componentes visuais)
-- caso o personagem não tenha descrição exbir o texto "descrição não informada". 
-(atenção: não será permitido colocar essa validação nos componentes visuais)
+  (atenção: não será permitido colocar essa validação nos componentes visuais)
+- caso o personagem não tenha descrição exbir o texto "descrição não informada".
+  (atenção: não será permitido colocar essa validação nos componentes visuais)
 
 ### Critérios de avaliação
+
 Além dos requisitos levantados acima, iremos avaliar os seguintes critérios:
-  - gerenciamento de estado
-  - componentização
-  - responsividade
-  - testes
-  - Ui design
+
+- gerenciamento de estado
+- componentização
+- responsividade
+- testes
+- Ui design
 
 ### Tecnologias Obrigatórias
- - NextJs
- - Typescript
- - tailwind css
 
-### Tecnologias opcionais 
- - redux,
- - react query,
- - redux tookit
- - jest
- - testing library
+- NextJs
+- Typescript
+- tailwind css
+
+### Tecnologias opcionais
+
+- redux,
+- react query,
+- redux tookit
+- jest
+- testing library
 
 ### Difencial
- - Ui design agradável
- - conhecimento de Atomic Design 
- - conhecimento de clean archtecture
- - testes automatizados
+
+- Ui design agradável
+- conhecimento de Atomic Design
+- conhecimento de clean archtecture
+- testes automatizados
 
 ### Por onde começo?
+
 Primeiramente, você pode fazer um fork desse repositório aqui, para sua conta do Github, depois disso crie uma branch nova com o seu nome (ex: nome_sobrenome), para podermos indentificá-lo.
 
 Após terminar o desafio, você pode solicitar um pull request para a branch master do nosso repositório. Vamos receber e fazer a avaliação de todos.
